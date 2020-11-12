@@ -1,3 +1,4 @@
+function takeOff() {
 $(document).ready(function() {
     const newDiv = document.createElement('div')
     newDiv.classList.add('death-star')
@@ -45,3 +46,7 @@ function calcSpeed(prev, next) {
     return speed;
 
 }
+
+}
+
+takeOff();
